@@ -1,0 +1,29 @@
+.header {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 5rem;
+}
+
+.login-button {
+    padding: 5px 3rem; 
+}
+
+.welcome {
+    color: khaki;
+    font-size: 3rem;
+    background-color: violet;
+    padding: 1.5rem;
+    border-radius: 50px;
+    position: relative;
+}
+.welcome::before {
+    content: '';
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+}

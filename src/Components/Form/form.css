@@ -1,0 +1,24 @@
+.form {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+.values {
+    width: 10rem;
+    height: 4rem;
+    overflow: hidden;
+}
